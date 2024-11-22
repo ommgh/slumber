@@ -1,8 +1,4 @@
-# Full Stack E-Commerce + Dashboard & CMS using React & Next.js (Store)
-
-The repository for my Full Stack E-Commerce website, I created this project following this [course](https://www.youtube.com/watch?v=5miHyP6lExg), but with my own little tweaks such as responsive Admin page.
-
-## MAKE SURE YOU HAVE [ADMIN](https://github.com/aoyo-jun/ecommerce-admin) SETUP FIRST!
+# Slumber StoreFront
 
 Features:
 
@@ -21,7 +17,7 @@ Features:
 * Order creation
 * Stripe checkout
 * Stripe webhooks
-* MySQL + Prisma + PlanetScale
+* PostgreSQL + Prisma + NeonDB
 
 ## Prerequisites
 
@@ -29,15 +25,14 @@ Features:
 
 ## Cloning the repository
 ```
-git clone https://github.com/aoyo-jun/e-commerce-store.git
+git clone https://github.com/ommgh/slumber.git
 ```
 ## Install packages
 ```
 npm i
 ```
 ## Setup .env file
-Here you will need to insert your:
-* Admin Store API (Inside Settings)
+Here you will need to insert your Admin Store API 
 ```
 NEXT_PUBLIC_API_URL=
 ```
@@ -45,10 +40,3 @@ NEXT_PUBLIC_API_URL=
 ```
 npm run dev
 ```
-###### This README was partially copied from the original [next13-ecommerce-admin](https://github.com/AntonioErdeljac/next13-ecommerce-store) repository.
-
-___
-
-Again, this amazing project is a [course](https://www.youtube.com/watch?v=5miHyP6lExg) by [Code with Antonio](https://www.youtube.com/@codewithantonio)!
-
-Another project following this awesome developer (aka Antonio), thank you so much for the learning experience 🙏
